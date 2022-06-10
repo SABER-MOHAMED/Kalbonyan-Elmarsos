@@ -1,4 +1,4 @@
-# Build Responsive Real-World Websites with HTML and CSS(-01-HTML-CSS-Jonas)
+# Build Responsive Real-World Websites with HTML and CSS(./-01-HTML-CSS-Jonas)
 
 # The Complete JavaScript Course 2022: From Zero to Expert!
 
