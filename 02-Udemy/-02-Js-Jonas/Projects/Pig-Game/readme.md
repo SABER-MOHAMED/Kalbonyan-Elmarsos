@@ -5,9 +5,9 @@
  :memo: Your mission is to make a game using the DOM.
  you have the right to use :
 
-  * [x] HTML :beer:
-  * [x] CSS :beer:
-  * [x] JS :beers:
+  * [x] HTML :love:
+  * [x] CSS :love:
+  * [x] JS :love:
 
 ####  :confetti_ball: RULES :confetti_ball::
 
