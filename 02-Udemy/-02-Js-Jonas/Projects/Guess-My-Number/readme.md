@@ -41,13 +41,17 @@
 </a>
 </p>
     <p align="center">      
-   <img src="./videos/guess the number.gif" alt="Demo of Guess The Number">
+   <img src="./preview1.png" alt="Demo of Guess The Number">
    <br>
- </p> 
+ </p>
+ <p align="center">      
+   <img src="./preview2.png" alt="Demo of Guess The Number">
+   <br>
+ </p>
  <p align="center">
-    <a href="https://08gunjan.github.io/GUESS-MY-NUMBER/Guess%20the%20Number/game.html" target="blank">View Demo</a>
+    <a href="https://saber-game.netlify.app" target="blank">View Demo</a>
     ·
-    <a href="https://github.com/08Gunjan/GUESS-MY-NUMBER/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/SABER-MOHAMED/Kalbonyan-Elmarsos/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/08Gunjan/GUESS-MY-NUMBER/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/SABER-MOHAMED/Kalbonyan-Elmarsos/issues/new/choose">Request Feature</a>
 </p>
