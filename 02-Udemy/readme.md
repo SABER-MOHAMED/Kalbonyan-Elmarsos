@@ -5,5 +5,3 @@
 # 3. [ Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL) ]()
 
 # 4. [ Complete NodeJS Developer in 2022 (GraphQL, MongoDB, + more) ]()
-
-
