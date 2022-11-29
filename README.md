@@ -56,7 +56,7 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 # MERN Stack
 
-![48%](https://progress-bar.dev/48/?title=Done)
+![45%](https://progress-bar.dev/45/?title=Done)
 <br />
 
 ## JavaScript - Select one of these 2 courses to complete
