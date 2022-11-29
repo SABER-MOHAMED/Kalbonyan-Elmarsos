@@ -1,0 +1,13 @@
+With a sorted list, we can perform a type of search is called a binary search. So, let's 
+imagine we had a list of sorted numbers, and the number that we're searching for is the number
+ 41. To perform the binary search, we start off with two indexes at the beginning and end of 
+ the list, and then we calculate the midpoint of the list, rounded down in case of an uneven 
+ division, and then we check to see if that value at the midpoint is the value that we want, 
+ and if it is, then great, we return that index. Now, if the number at that index is less than
+  the one that we're searching for, we know that we can ignore all the numbers below that 
+  index, and conversely if that number is larger than the one we're looking for, we can ignore
+   all the numbers above that index. So, now we calculate the new midpoint by advancing, in 
+   this case, the lower index up the middle we just calculated, and then we compute the new 
+   midpoint from there. So now, the lower becomes three, the upper stays where it is, and then 
+   new midpoint becomes five, after rounding down the division. And this process repeats until 
+   we found the number which, in our example, is at index number five. 

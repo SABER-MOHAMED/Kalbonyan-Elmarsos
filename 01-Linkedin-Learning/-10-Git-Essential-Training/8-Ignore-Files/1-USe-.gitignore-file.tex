@@ -1,0 +1,27 @@
+Use .gitignore files 
+
+/*! the tracked files cannot be ignored that way*/
+making file called  .gitignore 
+contain List of rules to determine which files to ignore 
+Changes made to ignored files will be ignored by git 
+
+you can write the name of the file 
+
+Or use Pattern matching (basic regular expression)
+  logs/*.txt   => ignore all files that end with txt
+
+Negative expression 
+  *.php      ignore all files that end in .php
+  !.text.php  but do not ignore index.php.
+
+Ignore all files in a directory with a trailing slash 
+  assets/videos/ 
+
+Comment 
+  # this is a comment 
+
+blank lines are skipped
+
+after putting your ignored file 
+  add the .gitignore file to the staging area 
+  then commit it 

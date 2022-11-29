@@ -1,0 +1,59 @@
+Queues: 
+  collection that supports adding and removing 
+  follow FIFO  rule 
+  first in first out 
+  first item added is the first item out
+
+  Enqueue 
+    is when an items is added to a list 
+
+  Dequeue 
+    is when items is removed from a list 
+
+  Peek 
+    See the first item in the queue without removing it 
+
+  priority Queue 
+    each element has a priority associated with it 
+    if you add multiple items that have the same priority, 
+    they will queue as normal first-in, first-out order
+    Not supported in all languages 
+
+  D-E-Q-U-E-K 
+  double-ended queue
+    double-ended queue is like having a stack and a queue at the same time. 
+    have a collection of items and we can add new items to this, 
+    but we can choose to add and remove from either end. 
+    restriction is we can't remove from anywhere else in the collection. 
+
+  Queue Uses 
+    Order processing 
+    Messaging
+
+    EX:
+      q = queue.Queue()
+      q.empty()# if the queue is empty or not 
+      q.put("item1")# putting items in the queue 
+      q.put("item2")
+      q.put("item3")
+
+      q.get()# give you the item1 
+      q.get()# give you the item2
+      q.get()
+
+    EX: 
+      queue = deque()
+
+      # add some items to the queue
+      queue.append(1)
+      queue.append(2)
+      queue.append(3)
+      queue.append(4)
+
+      # print the queue contents
+      print(queue)
+
+      # pop an item off the front of the queue
+      x = queue.popleft()
+      print(x)
+      print(queue)

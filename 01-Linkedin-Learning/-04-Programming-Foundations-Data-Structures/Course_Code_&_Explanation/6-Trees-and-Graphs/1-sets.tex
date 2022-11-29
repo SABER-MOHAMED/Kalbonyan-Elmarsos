@@ -1,0 +1,20 @@
+Set: 
+  A collection of unique items 
+  Order doesn't matter
+  None of the elements are duplicated
+  we don't have index or index 
+
+Why use sets ?
+  sets are a way of grouping things with a common property. 
+
+Membership
+  With sets, we are usually testing if a piece of data is a member in that set.
+
+Implementation 
+  sets are actually using the same idea of hash tables most of the time. 
+  Instead of hashing a key to store a separate value object, when you're using a set, the key is the value. 
+  We don't have two pieces of information, we're just adding one. 
+  So a set works by taking an object, hashing it, and then using the generated index to store the object itself. 
+  Then, to check membership, to find out if we already know about a particular object, we just repeat the process and see if this object is already stored.
+  We only care about membership, if the object is already in the set.
+  In checking to see if an object is in the set, we already need to have the object itself,which is why we never use sets for retrieval of data.

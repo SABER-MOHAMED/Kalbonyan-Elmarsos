@@ -1,0 +1,48 @@
+how to write a good commit messages
+  begin with a short single-line summary (less than 50 character) 
+
+  optionally followed by a blank line and a more complete description 
+  Keep each line to less than 72 characters
+  write commit message in present tense, not past tense 
+    "fix for a bug" or "Fixes a bug" not "fixed a bug" 
+
+    Bullet points are usually asterisks or hyphens
+    Can add "tracking numbers" from bugs or support requests
+    Can develop shorthand for your organization 
+        Ex: 
+        you might begin each commit with what kinds of things are being changed
+        "[css,js]"
+        "bugfix:"
+        Or maybe everything begins with one of those bug or support request tracking numbers. 
+        "#38405-"
+
+
+        make sure that your commit messages are clear and descriptive
+        Bad: "fix typo" 
+        Good: "Add missing hyphen in project section of HTML"
+
+        Bad: "Update login code"
+        Good: "Change user authentication to use Blowfish"
+
+        Bad: "Updates member support, we should discuss if this is right next week"
+        Good: " "Updates member support"
+
+https://www.shells.com/l/en-US/tutorial/How-to-Add-a-Git-Commit-Message
+
+****** multiline commit message 
+type 
+  git commit 
+and it will open the editor for you and now write the main title and skip a line and write more things. 
+
+then save the file and close it 
+
+git log --oneline 
+
+show the first line of each commit if it was multiline
+
+******* Make Atomic commit 
+
+* Small Commits 
+* Only affect a single aspect 
+* Easier to understand, to work with, and to find bugs
+* Improve collaboration

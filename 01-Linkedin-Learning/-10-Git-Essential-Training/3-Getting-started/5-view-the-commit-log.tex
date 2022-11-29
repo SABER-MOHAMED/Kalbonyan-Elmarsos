@@ -1,0 +1,37 @@
+first of all make sure you're inside your project directory 
+type   
+  git log 
+
+that will show you all the commits 
+you will notice that every commit have 
+a unique id 
+an author 
+a date 
+
+to find more about get log type
+  git help log
+
+Limiting the number of commits and show you the most recent number of commits you want 
+  git log -n 5 
+
+  git log --online 
+
+Limiting the time oof commits 
+  git log --since =2019-01-01
+  this will show me all commits that have happened since January 1st of 2019.
+
+  git log --until=2020-01-01 
+  and that will show me every thing before that date 
+
+  you can use both 
+
+Limiting by author 
+  git log --author "kevin"
+   for the author I don't have to type the full name I can type any part of the name.
+
+Searching for commit message 
+  git log --grep="Init"
+
+  grep is a commonly used term in computers and it says that 
+  we're going to globally search for regular expressions. 
+  That's what the G, R, E stands for.  

@@ -1,0 +1,39 @@
+after making some changes like making folder and files 
+
+to see what is in the local directory and if there is changes type 
+
+git status 
+
+the untracked file mean there is changes 
+
+. Working director       staging area      local repo        remote repo 
+.        |   git add =>        |                |                  |
+.        |                     | git commit=>   |                  |
+.        |                     |                |   git push =>    |         
+.        |                     |                |   <= git fetch   |
+.        |              <== git checkout        |                  |
+.        |               <==  git merge         |                  |
+
+
+************  Adding untracked files to the staging are **********
+
+git add file-path 
+
+Or  
+
+git add *   or .   to add every thing to the staging area 
+
+** Unstage file  
+
+git reset head the-file-you-want-to-revert
+
+** check what are you adding 
+
+git add -p 
+
+accept with y  reject with n 
+
+*********** commit these changes **********
+
+git commit -m "the commit message"
+  the -m refer to message   

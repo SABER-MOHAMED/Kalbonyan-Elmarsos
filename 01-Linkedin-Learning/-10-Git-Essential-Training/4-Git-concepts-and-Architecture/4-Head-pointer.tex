@@ -1,0 +1,20 @@
+HEAD 
+  pointer to tip of current branched in repository 
+
+  Last state of repository, what was last checked out 
+
+  Point to parent of next commit where writing commits takes place 
+
+  The HEAD always points to the tip of the current branch in our repository.
+
+to see where is the head 
+
+you can find the head file in the .git by typing 
+ls -la .git 
+then 
+cat .git/HEAD
+then it will tell you where to find this information
+cat .git/refs/heads/master 
+will give you the sha value of the commit that is the pointer on 
+
+you will not need to actually manipulate the HEAD yourself. Git will take care of that for you. 

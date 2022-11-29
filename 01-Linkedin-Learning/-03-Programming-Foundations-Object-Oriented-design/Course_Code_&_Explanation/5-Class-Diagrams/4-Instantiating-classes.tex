@@ -1,0 +1,38 @@
+- When we write the class for a spaceship in our video game, we're creating the blueprint to build the spaceship.
+Now, the blueprint itself isn't a usable object, but from that class, we can instantiate or create one or more instances of that type of spaceship object.
+
+Instantiation 
+  Java  Spaceship myShip = new Spaceship()
+
+  C#   Spaceship myShip = new Spaceship() 
+
+  C++  Spaceship *myShip = new Spaceship()
+  
+  Ruby myShip = Spaceship.new
+
+  Python myShip = Spaceship()
+
+  Swift  let myShip: Spaceship = Spaceship()
+
+  you should always consider what the internal state of an object will be immediately after you instantiate it.
+
+  In Java, the default value for a string is Null and the default value for an integer is zero.
+
+  we could go and set those values immediately after we create the object.
+
+  
+  spaceship myShip = new spaceship()
+  myShip.callSign = "Excelsior"
+  myShip.setShieldStrength(100)
+
+  but it would be better if we created the object in a meaningful state to begin with. 
+  to do that we use constructor 
+    a special method that gets called to create an object 
+
+    you create a constructor by simply defining a new method in the class with the same name as the class itself.
+
+    unlike other methods, the constructor does not have a return type because you never call it yourself. It gets called when you use the keyword new to instantiate a new object. 
+
+    Inside the constructor, we set the initial state that we want these instance variables to have. 
+
+    when we use that same line of code to instantiate the object, it will be initialized with those specific values that we want instead of the default values of Null and zero.

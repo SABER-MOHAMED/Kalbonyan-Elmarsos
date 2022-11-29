@@ -1,0 +1,13 @@
+changing the HEAD commit 
+
+  after commit a change and then make another change and you want the second change be in the same commit message 
+
+  Git only allows amending the most recent commit (HEAD)
+  if you make change and then add it to the staging area 
+  but you want that change to be in the head commit meaning you don't want to create new commit 
+  git commit --amend -m "message"
+  Now the old commit will gone and git will create new commit with new information and the sha value has changed but the old information will still in the commit  
+  git commit --amend -m "message"  
+
+  that amend option that you use with commit says take whatever was in the old commit, bring it back down to staging, add whatever staging has into it, and then let's recommit that.
+  I'm going to amend it with those new changes. That's how you can think of it. It's taking what's in the last commit, bringing it down, adding your new stuff to it, and recommitting it, and generating a new SHA in the process.

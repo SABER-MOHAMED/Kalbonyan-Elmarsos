@@ -1,0 +1,68 @@
+linked list:
+  the elements of a linked list are not stored at contiguous locations. 
+  Instead, we link the elements using pointers.
+  
+  is a linear collection of data elements  called nodes
+  contain reference to the next node in the list
+  Hold whatever data the application needs
+
+  node: 
+    contains data and a pointer to the next node
+    the first item you add to the list called the head
+
+  Operation on linked list
+    
+    1-Add
+      To add an item, it's easiest to insert at the back or front of the list.
+      When inserting at the front, we can initialize the new node with the appropriate data and set the new node's next pointer to point to the first node.
+      When inserting at the back of the list, we take the last node of the list and set its next pointer to our new node.
+
+    2- Access 
+      To access an item, we don't have to have an index like we do with an array.
+      This means we have to follow the pointers until we find the item we want to access.
+
+    3- Delete
+      To delete an item, we first have to find the item and then,
+      update the next pointer of the node preceding and following that node.
+
+    4- searching 
+    to search for an item We have to traverse through the entire list to find anode with a specific value 
+    or find out that the data does not even exist in the list.
+
+    5- Insert 
+    Let's say we wanted to add a train car somewhere else in the list.
+    We'd have to follow the pointers to that specific place and then update the pointers 
+    so that the previous train car points to our new train car and our new train car points to the next element.
+
+
+  singly linked list:
+    each item has point to the next item in the list 
+
+  Doubly linked list:
+    each item in the list has two pointers to the next and previous element 
+  
+  Advantages of linked list:
+    1-inserting and deleting 
+      elements can be easily [inserted] and [removed] with O(1) performance 
+      This is because linked lists have next pointers and do not need to be stored contiguously in memory
+      underlying memory doesn't need to be reorganized 
+    
+  Cons:
+    Access
+      Can't do constant-time random item access
+      Item lookup[Access] is linear in time complexity (O(n))
+      because items don't have index or even keywords
+
+    Updating
+      take O(n) time 
+      because we need to find the appropriate node and then update its value.
+
+    Searching and deleting
+      take linear, or O of N time in the worst case, 
+      because we have to search for the element in order to find it, access it, and delete it
+
+  Sorting:
+    Merge sort is often preferred for sorting a linked list. 
+    Other algorithms, such as quick sort and heap sort are not ideal because linked lists have slow, random access performance. 
+
+    In random access, we should be able to say an index and get the item at that slot immediately, like in array.
