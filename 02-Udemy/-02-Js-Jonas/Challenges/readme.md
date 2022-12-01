@@ -1,5 +1,6 @@
 # Build Responsive Real-World Websites with HTML and CSS
-
+![100%](https://progress-bar.dev/100/?title=Done)
+<br />
 
 
 ## Challenges
@@ -12,4 +13,5 @@
 - [x] [A Closer Look at Functions](./A%20Closer%20Look%20at%20Functions/)
 - [x] [Working With Arrays.](./Working%20With%20Arrays/)
 - [x] [Object Oriented Programming (OOP)](<./Object%20Oriented%20Programming%20(OOP)/>)
-- [x] [Asynchronous JavaScript](./Challenges/Asynchronous%20JavaScript)
+
+<img src="https://img.shields.io/badge/Total%20Number%20Of%20Challenges-26-blue">
