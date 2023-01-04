@@ -1,20 +1,26 @@
 # The Complete JavaScript Course 2022: From Zero to Expert!
 ## Projects
-### Pig Game
+### Pig Game 🦄
 - [Project-code](./Projects/Pig-Game)
 - [Live Demo]()
-### Bankist
+### Bankist 🏟
 - [Project-code](./Projects/Bankist)
-- [Live Demo]()
-### Bankist Site
+- [Live Demo](https://bankkkk.netlify.app)
+### Bankist Site 💰
 - [Project-code](./Projects/Bankist-Site)
-- [Live Demo]()
-### Mapty
+- [Live Demo](https://bankaa.netlify.app)
+### Mapty 🗺
 - [Project-code](./Projects/Mapty)
-- [Live Demo]()
-### Forkify
+- [Live Demo](https://dosomesport.netlify.app)
+### Guess My Number 🎰
+- [Project-code](./Projects/Guess-My-Number)
+- [Live Demo](https://saber-game-2.netlify.app)
+### OmniFood 🍕
+- [Project-code](./Projects/Omnifood)
+- [Live Demo](https://0mnif00d.netlify.app)
+### Forkify 🍕
 - [Project-code](./Projects/Forkify)
-- [Live Demo]()
+- [Live Demo](https://saber-recipes.netlify.app)
 ---
 ## Code
 [Code](Code)
@@ -22,4 +28,4 @@
 ---
 [Course-Link](https://www.udemy.com/course/the-complete-javascript-course/)<br>
 
-![Certificate](https://via.placeholder.com/468x300?text=Certificate+Here)
+![Certificate](./certificate.pdf)
