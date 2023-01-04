@@ -28,4 +28,4 @@
 ---
 [Course-Link](https://www.udemy.com/course/the-complete-javascript-course/)<br>
 
-![Certificate](./certificate.pdf)
+![Certificate](./certificate.jpg)
