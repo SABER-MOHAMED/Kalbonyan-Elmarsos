@@ -19,12 +19,8 @@
 - [Project-code](./Projects/Omnifood)
 - [Live Demo](https://0mnif00d.netlify.app)
 ### Forkify 🍕
-- [Project-code](./Projects/Forkify)
+- [Project-code](https://github.com/SABER-MOHAMED/Forkify)
 - [Live Demo](https://saber-recipes.netlify.app)
----
-## Code
-[Code](Code)
-
 ---
 [Course-Link](https://www.udemy.com/course/the-complete-javascript-course/)<br>
 
