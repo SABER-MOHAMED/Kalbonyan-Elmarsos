@@ -1,3 +1,6 @@
+/**
+*  Developed by: @Saber_Mohamed, 10/01/2023
+*/
 /* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
 
 :root {
@@ -100,7 +103,7 @@ p {
   color: #666;
 }
 
-/* This is BAD for accessibility! Don't do in the real world! */
+/* This is BAD for accessibility! */
 button:focus {
   outline: none;
 }
