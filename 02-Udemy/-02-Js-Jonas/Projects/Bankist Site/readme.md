@@ -13,11 +13,4 @@ static Bank website built using pure JavaScript, HTML &amp; CSS. It uses webpack
 
 ![image preview](screenShot.png)
 
-### for now \*not mobile friendly 😥
-
-## Additional Used
-
-- Geolocation Api
-- LocalStorage Api
-- Leaflet map
-- Google Fonts
+- for now \*not mobile friendly 😥
