@@ -89,15 +89,3 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-42h-blue">
 <br />
-
----
-
-<!-- serverless -->
-
-<span id="serverless"></span>
-
-# Learn How to Make serverless web applications
-
-![0%](https://progress-bar.dev/0/?title=Done)
-
-- [ ] `in progress` - 18 - [Serverless Stack (SST)](04-Serverless-Stack-Project/)
