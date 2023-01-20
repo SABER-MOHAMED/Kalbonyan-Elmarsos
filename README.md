@@ -87,4 +87,4 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 - [ ] `in progress` `35h` - 17 - [AWS Certified Solutions Architect Associate (SAA-C02)](<03-aCloudGuru/AWS%20Certified%20Solutions%20Architect%20Associate%20(SAA-C02)>)
 
 <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-42h-blue">
-<br />
+<br /> 
