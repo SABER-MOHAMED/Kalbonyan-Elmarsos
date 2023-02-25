@@ -65,7 +65,7 @@ Kalbonyan Elmarsos is an Egyptian non-profit organization whose goal is to help 
 
 ## ReactJs - Select one of these 2 courses to complete
 
-- [ ] `in progress` `39h` - 14 - [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](/02-Udemy/-03-Reactjs-ZTM)
+- [x] `in progress` `39h` - 14 - [Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)](/02-Udemy/-03-Reactjs-ZTM)
 
 ## NodeJs - Select one of these 2 courses to complete
 
